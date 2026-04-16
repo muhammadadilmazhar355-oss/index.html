@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muhammad Adil Mazhar - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+<!-- HERO -->
+<section class="bg-white border-b">
+  <div class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-10 items-center">
+
+    <div class="md:col-span-2">
+      <h1 class="text-5xl font-bold mb-3">Muhammad Adil Mazhar</h1>
+
+      <p class="text-xl text-gray-600">
+        Business Analyst | CRM Analyst | Revenue Operations | Automation Specialist
+      </p>
+
+      <p class="mt-6 text-gray-700 leading-7">
+        CRM transformation, Salesforce migration, Power BI dashboards, workflow automation, and analytics for US-based organizations.
+      </p>
+
+      <div class="mt-6 flex gap-4 flex-wrap">
+        <a href="YOUR_LINKEDIN_URL" target="_blank" class="px-5 py-2 border rounded-xl hover:bg-gray-100">
+          LinkedIn
+        </a>
+
+        <a href="mailto:your@email.com" class="px-5 py-2 border rounded-xl hover:bg-gray-100">
+          Contact
+        </a>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="profile.jpg"
+           class="w-48 h-48 object-cover rounded-full shadow-lg border"
+           alt="Profile Image">
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="max-w-6xl mx-auto px-6 py-14">
+
+  <h2 class="text-3xl font-bold mb-8">Experience</h2>
+
+  <div class="bg-white p-6 rounded-xl shadow mb-6">
+    <h3 class="text-xl font-semibold">DM Clinical Research (USA)</h3>
+    <p class="text-gray-500 mb-3">Business Analytics & CRM Strategy</p>
+
+    <ul class="list-disc pl-6 space-y-2 text-gray-700">
+      <li>Built analytics products for pipeline and business insights</li>
+      <li>Led Salesforce CRM migration and data validation</li>
+      <li>Created Power BI dashboards for executives</li>
+      <li>Improved workflow efficiency by ~70%</li>
+      <li>Achieved ~80% forecasting accuracy</li>
+    </ul>
+  </div>
+
+  <div class="bg-white p-6 rounded-xl shadow">
+    <h3 class="text-xl font-semibold">Enterprise CRM Projects</h3>
+    <p class="text-gray-500 mb-3">CRM Automation & Solutions</p>
+
+    <ul class="list-disc pl-6 space-y-2 text-gray-700">
+      <li>Built Salesforce workflows for enterprise clients</li>
+      <li>Improved revenue efficiency by ~50%</li>
+      <li>Designed real-time dashboards</li>
+      <li>Led training and adoption programs</li>
+    </ul>
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section class="max-w-6xl mx-auto px-6 py-14">
+
+  <h2 class="text-3xl font-bold mb-8">Featured Projects</h2>
+
+  <div class="grid md:grid-cols-2 gap-6">
+
+    <!-- PROJECT 1 -->
+    <div class="bg-white rounded-xl shadow overflow-hidden">
+      <img src="powerbi-dashboard.png" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h3 class="text-xl font-semibold mb-2">Power BI Dashboard</h3>
+        <p class="text-gray-600">Executive KPI tracking dashboard for revenue and performance.</p>
+      </div>
+    </div>
+
+    <!-- PROJECT 2 (SALESFORCE FIXED) -->
+    <div class="bg-white rounded-xl shadow overflow-hidden">
+      <img src="salesforce-crm-migration.png" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h3 class="text-xl font-semibold mb-2">Salesforce CRM Migration</h3>
+        <p class="text-gray-600">Full CRM migration including data mapping, cleansing, and system rollout.</p>
+      </div>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="bg-white rounded-xl shadow overflow-hidden">
+      <img src="automation-flow.png" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h3 class="text-xl font-semibold mb-2">Workflow Automation</h3>
+        <p class="text-gray-600">Automated business processes using Monday.com and ClickUp.</p>
+      </div>
+    </div>
+
+    <!-- PROJECT 4 -->
+    <div class="bg-white rounded-xl shadow overflow-hidden">
+      <img src="forecasting-model.png" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h3 class="text-xl font-semibold mb-2">Revenue Forecasting Model</h3>
+        <p class="text-gray-600">5-year forecasting model with ~80% accuracy for strategic planning.</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- SKILLS -->
+<section class="bg-white py-14">
+
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-3xl font-bold mb-8">Skills</h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="p-4 border rounded-xl text-center">Salesforce</div>
+      <div class="p-4 border rounded-xl text-center">Power BI</div>
+      <div class="p-4 border rounded-xl text-center">SQL</div>
+      <div class="p-4 border rounded-xl text-center">Excel</div>
+      <div class="p-4 border rounded-xl text-center">CRM Automation</div>
+      <div class="p-4 border rounded-xl text-center">ClickUp</div>
+      <div class="p-4 border rounded-xl text-center">Monday.com</div>
+      <div class="p-4 border rounded-xl text-center">Data Analysis</div>
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>
